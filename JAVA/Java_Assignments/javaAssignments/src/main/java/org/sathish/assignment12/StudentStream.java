@@ -43,7 +43,7 @@ public class StudentStream {
                 .map(s -> s.getName())
                 .forEach(s -> System.out.println(s));
         // 3. Male students Computer science department
-        System.out.println(("Male students Computer science department"));
+        System.out.println("Male students Computer science department");
         students.stream()
                 .filter(s -> s.getGender().equalsIgnoreCase("Male") &&
                 s.getEngDepartment().equalsIgnoreCase("Computer Science"))
